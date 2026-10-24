@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header id="top">
+    <h1 class="heading">My portfolio</h1>
+    </header>
+    <nav class="headin2">
+        <a href="#about" class="abt">About</a>
+        <a href="#skills" class="sk">Skills</a>
+        <a href="#projects" class="pj">Projects</a>
+        <a href="#contact" class="ct">Contact</a>
+    </nav>
+    <div id="about">
+        <h2>About Me</h2>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppYS6_uwgbCv_EnPWJfZ3lplvn-zAoP6y4hq8XmkKxg&s=10" alt="Personal photograph of the portfolio owner" class="image">
+    </div>
+    <main>
+    <div id="desc">
+        <h4>Hello my name is Aanya bhardwaj. I am learning web development and this 
+        is my first portfolio website.</h4>
+    </div>
+    <section>
+        <h2 id="skills"><hr>My skills</h2>
+        <table border="1px" id="table">
+            <th>Skill</th>
+            <th>Level</th>
+            <tr>
+                <td>Html</td>
+                <td>Beginner</td>
+            <tr>
+                <td>Css</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Java script</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2 id="projects"><hr>My projects</h2>
+        <div id="p1">
+            <h4>Project1</h4>
+            <p>A simple web page using html and css</p>
+        </div>
+        <div id="p2">
+            <h4>Project2</h4>
+            <p>Another awesome mini project</p>
+        </div>
+    </section>
+    <section>
+        <div id="contact">
+            <h2><hr>Contact Me</h2>
+        </div>
+    <form action="#" method="post">
+        <table class="form-table">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea id="message" name="message" rows="3" placeholder="Write your message" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" id="btn">Send</button></td>
+            </tr>
+        </table>
+    </form>
+    <section>
+        <a href="#top"><button type="" name="back to the top" id="back">
+            Back to the top
+        </button></a>
+    </section>
+    </section>
+    </main>
+    <footer class="end">
+        <p>&copy; 2026 Aanya Bhardwaj</p>
+    </footer>
+</body>
+</html>

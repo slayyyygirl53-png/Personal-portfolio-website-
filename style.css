@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+.heading{    /* styling for heading first */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7C0E44;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    
+}
+.headin2{
+    text-align: center;
+}
+.abt:hover{  /* the second heading*/
+    color: black;
+    opacity: 0.55;
+}
+.sk:hover{
+    color: black;
+    opacity: 0.55;
+}.pj:hover{
+    color: black;
+    opacity: 0.55;
+}.cj:hover{
+    color: black;
+    opacity: 0.55;
+}
+.image{  /* styling for image */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    margin: 20px auto;
+    display: block;
+}
+#desc{
+    text-align: center;
+}
+#about{
+    text-align: center;
+    color:#AA5E7A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#skills{  /* styling for skills section */
+    text-align: center;
+    color: #AA5E7A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* styling for table */
+#table{
+  width: 500px;                 
+  border-collapse: collapse;   
+  margin: 20px auto;            
+  border: none;
+}
+th, td {
+  border: 1px solid #D49A9A ;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #D49A9A;
+  color: white;
+}
+/* styling for project section */
+#projects{
+    text-align: center;
+    color:#AA5E7A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#p1{
+  width: 500px;                 
+  margin: 10px auto;            
+  padding: 20px;                
+  border: 1px solid rgb(0,0,0);       
+  border-radius: 8px;           
+  text-align: center;
+}
+#p2{
+  width: 500px;                 
+  margin: 10px auto;            
+  padding: 20px;                
+  border: 1px solid rgb(0,0,0);       
+  border-radius: 8px;           
+  text-align: center;
+}
+/* styling for contact section */
+#contact{
+    text-align: center;
+    color:#AA5E7A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.form-table{ /* styling table for contact section */
+  width: 500px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border: #AA5E7A;
+
+}
+.form-table td {
+  border: 1px solid #AA5E7A;
+  padding: 10px;
+  text-align: center;
+}
+
+.form-table input,
+.form-table textarea {
+  width: 90%;
+  padding: 6px;
+  border: 1px solid #AA5E7A;
+  font-family: inherit;
+}
+.text{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+.message{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+#btn{
+    display: block;               
+    margin: 20px auto;            
+    background-color: #7C0E44;
+    color: aliceblue;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+}
+#back{
+    position: fixed; /* stays on the screen while scrolling */
+    bottom: 20px;                 
+    right: 20px;                  
+    background-color: #7C0E44;
+    color: aliceblue;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+/* styling the footer part */
+.end{
+    text-align: center;
+    background-color: #7C0E44;
+    color: aliceblue;
+}
